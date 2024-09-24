@@ -1,0 +1,13 @@
+docker -v =>เช็คเวอร์ชั้น
+docker ps =>เช็ค Containers
+docker ps --all =>เช็คที่กำลังทำงานอยู่ทั้งหมด Containers
+docker run hello-world
+docker run busybox ping google.com =>
+docker stop 0845c7d7d39e =>หยุดการทำงาน Containers
+docker system prune =>อันตราย!!
+cd usr/share/nginx/html
+cat index.html
+exit => เพื่อออก
+docker run -p 80:80 nginx => run nginx ที่พอต 80 =>  สร้าง localhost http://localhost:80/
+docker run -p 9000:80 nginx => run nginx ที่เปลี่ยนพอตเป็น 9000 => http://localhost:9000/
+
